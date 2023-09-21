@@ -23,7 +23,10 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(),
       body: const Column(
-        children: [Text('data')],
+        children: [
+          Text('data'),
+          Text('asssignment6'),
+        ],
       ),
     );
   }
